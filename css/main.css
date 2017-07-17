@@ -1,0 +1,73 @@
+
+body {
+	margin-left: 100px;
+	width: 100%;
+}
+/***************
+	Header
+****************/
+
+.headerSelect {
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	background-color: #FFB4B0;
+	padding-top: 30px; 
+	padding-left: 10px;
+}
+
+/***************
+	Song Stuff
+****************/
+.sides {
+	display: flex;
+	height: 600px;
+	margin-top: 20px;
+
+}
+.options {
+	width: 20%;
+	height: 100%;
+	border: 1px solid black;
+	background-color: #4DD7FA;
+	padding: 0 10px;
+}
+
+.songList{
+	width: 80%;
+	height: 100%;
+	border: 1px solid black;
+	background-color: #FEFAC0;
+	margin-left: 20px;
+}
+.songTitle {
+	color: #785616;
+}
+
+.genreChecks {
+
+}
+
+.boxesLayout {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+ 	justify-content: flex-start
+
+}
+.checkRows {
+	width: 50%;
+}
+
+.listItem {
+	padding: 0 15px;
+}
+
+.songDetails p {
+	display: inline;
+	width: 100px;
+}
+
+.textSeparator {
+	padding: 0 10px;
+}
